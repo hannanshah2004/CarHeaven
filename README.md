@@ -1,7 +1,11 @@
 # CarHeaven
 
-https://github.com/sawyers719/phone-webscraper/blob/main/phone-webscraper.py https://www.reddit.com/r/webscraping/comments/znzud2/help_with_first_scraper/
-https://newyork.craigslist.org/search/sss?query=ford%20fusion#search=1~gallery~0~74 https://www.reddit.com/r/learnpython/comments/ajkmxq/using_selenium_to_find_a_new_car_scraping/ https://github.com/imharrymargalotti/CraigslistCarFinder/blob/master/carFinderReddit.py 
-https://pypi.org/project/python-craigslist/
-https://docs.google.com/spreadsheets/d/1MCnc4iyDoVVqIxaCjibCuxhEMxbwBA0rP16jWpYLjw4/edit#gid=0 
-https://api.carsxe.com/docs#vehicle-market-values
+The provided code takes user inputs for the state, car name, minimum price, and maximum price. It removes spaces from the state input, constructs a URL based on the user's inputs, and then scrapes Craigslist listings from that URL. The listings are filtered based on the user's car name and the specified price range. Filtered listings are written to a CSV file and displayed on the console. Detailed comments explain each step of the code and its purpose.
+
+# Libraries
+
+Requests, Csv, BeautifulSoup, Urlib.parse
+
+
+
+
